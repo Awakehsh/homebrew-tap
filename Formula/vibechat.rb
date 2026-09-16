@@ -1,28 +1,28 @@
 class Vibechat < Formula
   desc "Terminal chat that looks like an AI coding agent session"
   homepage "https://github.com/Awakehsh/vibe-chat"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.0/vibechat-darwin-arm64"
-      sha256 "418aeb95b5a4c08d9995fe80184120fa27f4f0a4f4bd97e6ff114ecea2e297ea"
+      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.1/vibechat-darwin-arm64"
+      sha256 "1d39ddec1bf6c544f2e9c4d229148277d9e5d8b1001ebaf13b61a069d317dab8"
     end
     on_intel do
-      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.0/vibechat-darwin-x64"
-      sha256 "9bda4c20ccbfb8774362d1ff265339898f58bfdb21cb935fc494f19be9a31f4c"
+      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.1/vibechat-darwin-x64"
+      sha256 "cf718847a2e3d21298836329babd14ca23b93ddfc279788e759a03ee4a2249b3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.0/vibechat-linux-arm64"
-      sha256 "b76356e48c88771cb102dae1443cf2bbfe067e5b58bb38af48c909aaf121dd9b"
+      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.1/vibechat-linux-arm64"
+      sha256 "a22dfda1d2752239fc5ffe16c094a417a1320ebcfd479963380668429e01198c"
     end
     on_intel do
-      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.0/vibechat-linux-x64"
-      sha256 "4ac0d763ef02527c7aa1d56f426076bcef39c040652309d79990a8761f1d80b2"
+      url "https://github.com/Awakehsh/vibe-chat/releases/download/v0.1.1/vibechat-linux-x64"
+      sha256 "6cdfa542cb97e0ff520ca4b002c2e6f55b352958f808de70d6be79d7a5678fe2"
     end
   end
 
